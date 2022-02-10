@@ -21,11 +21,11 @@ public class Application {
 		System.out.println("E o imposto sobre o salário: ");
 		x.imposto = sc.nextDouble();
 		
-		System.out.println("Digite a porcentagem de aumento salário)");
-		
-		
-		
-		
+		System.out.println("Digite a porcentagem de aumento salário");
+		x.porcentagem_Salario = sc.nextDouble();
+		System.out.printf("Foi aumentado o salario em: R$ %s", x.aumento());
+		System.out.println();
+		System.out.printf("Salario atualizado: R$ %s", x.salario_Atual());
 		
 		sc.close();	
 
